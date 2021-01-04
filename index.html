@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Project #</title>
+
+        <!-- link our CSS file -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- defer makes it so that these scripts load
+            in the background and then execute in order
+            after the DOM is ready -->
+
+        <!-- D3 library goes first -->
+        <script src="d3/d3.js" defer></script>
+        <script src="d3/d3-array.js" defer></script>
+        <script src="d3/d3-legend.min.js" defer></script>
+        <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+     
+        <!-- Then our visualization code -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+        <script src="visualizations/v4.js" type="text/javascript" defer></script>
+        <script src="visualizations/v1.js" defer></script>
+        <script src="visualizations/v2.js" defer></script>
+        <script src="visualizations/v3.js" defer></script>
+
+        <!-- Then our code that calls the visualizations -->
+        <script src="main.js" defer></script>
+
+    </head>
+
+    <body onload="getData()">
+        <div id="container">
+            <strong>
+                
+            
+            </strong>
+
+            <h1>VISUALIZATION 1</h1>
+            <div id="vis1"></div>
+
+            <div id="text"><p>Visualization 1 is the analysis of number of diagnosis based on age groups and risk of the cases. A grouped bar chart is an appropriate way for this analysis where the all types of risks are grouped together according to different age groups. This gives a way to compare and analyze the number of cases by risk level as well as age group.
+            </p></div>
+
+            <h1>VISUALIZATION 2</h1>
+            <div id="vis2"></div>
+
+
+
+             <div id="text"><p>
+                Visualization 2 provides analysis of gender wise cases across different ethnicities. A pie chart is used to portray the distribution of the cases across genders and 
+                different pie charts are used for different ethnicities.
+            </p></div>
+            <h1>VISUALIZATION 3</h1>
+            <div id="vis3"></div>
+
+             <div id="text"><p>
+                Visualization 3 is a matrix form of data visualization used to analyze the number of cases by MDC and Illness Severity. The radius of each bubble represents the number of cases for the point of intersection.
+            </p></div>
+            <h1>VISUALIZATION 4</h1>
+            <div id="myDiv"></div>
+            
+        </div>
+    </body>
+</html>
+
+
