@@ -13,8 +13,6 @@ h1 {
 	margin-bottom: 50px;
 	margin-right: 50px;
 	margin-left: 50px;
-/*	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-*/	/*border-radius: 25px;*/
 }
 
 
@@ -43,6 +41,5 @@ p {
 	margin-left: 150px;
 	margin-bottom: 200px;
 	background-color: rgba(0, 100, 150, 0.5);
-	/*box-shadow: 5px 5px 3px grey;*/
-	/*border-radius: 25px;*/
+
 }

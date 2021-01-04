@@ -91,7 +91,7 @@ function v2(data, div) {
 
   svg.append('g')
     .attr('transform', `translate(0,${(visHeight / 2) + outerRadius + 5})`)
-        // .attr('transform', `translate(0,${(visHeight / 2)})`)
+
 
     .call(xAxis)
     .attr('font-size', 20)

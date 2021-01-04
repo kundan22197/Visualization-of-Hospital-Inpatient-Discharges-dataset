@@ -117,14 +117,9 @@ const data1 = data.map(d => ({age: d.age_group, mortality_risk: d.apr_risk_of_mo
       .attr('font-size', 20)
       .call(g => g.selectAll('.domain').remove())
       .append('text')
-      // .attr('text-anchor', 'start')
-      // .attr('dominant-baseline', 'middle')
       .attr('fill', 'black')
       .attr('x', visWidth / 2)
       .attr('y', visHeight / 2 - 120)
-      // .attr("transform", function(d) {
-      //           return "rotate(-90)" 
-      //           })
       .text('Age groups');
   
   svg.append("g")
@@ -132,8 +127,6 @@ const data1 = data.map(d => ({age: d.age_group, mortality_risk: d.apr_risk_of_mo
       .attr('font-size', 20)
       .call(g => g.selectAll('.domain').remove())
     .append('text')
-      // .attr('text-anchor', 'start')
-      // .attr('dominant-baseline', 'middle')
       .attr('fill', 'black')
       .attr('x', -120)
       .attr('y', visHeight / 2 - 230)

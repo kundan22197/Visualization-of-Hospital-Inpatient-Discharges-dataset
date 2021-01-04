@@ -28,15 +28,3 @@ function getData(){
 
 
 
-
-
-
-// Promise.all([
-//   d3.csv('data/d1.csv', d3.autoType),
-
-
-// ]).then(([data_vis1]) => {
-//   v1(data_vis1, d3.select('#vis1'));
-//   v2(data_vis1, d3.select('#vis2'));
-//   v3(data_vis1, d3.select('#vis3'));
-// });
